@@ -53,7 +53,7 @@ smd({
     const groupDescription = groupMetadata.desc || "No description available";
     const groupTotalMembers = groupMetadata.participants.length;
 
-    const welcomeMessage = `👋 Welcome ${newMemberTag} to *${groupName}*!\n\n📜 Group Description: ${groupDescription}\n👥 Total Members: ${groupTotalMembers}\n\nFeel free to introduce yourself and enjoy your stay! 🎉`;
+    const welcomeMessage = `🧸 Welcome ${newMemberTag} to *${groupName}*!\n\n📜 Group Description: ${groupDescription}\n👥 Total Members: ${groupTotalMembers}\n\nFeel free to introduce yourself and enjoy your stay! 🎉`;
 
     await client.sendMessage(groupID, { text: welcomeMessage, mentions: [newMemberID] });
   } catch (error) {
@@ -81,7 +81,7 @@ smd({
     const groupDescription = groupMetadata.desc || "No description available";
     const groupTotalMembers = groupMetadata.participants.length;
 
-    const farewellMessage = `👋 Farewell ${leavingMemberTag}. We're sad to see you leave *${groupName}*.\n\n📜 Group Description: ${groupDescription}\n👥 Total Members: ${groupTotalMembers}\n\nWe hope to see you again! 🌟`;
+    const farewellMessage = `🧸 Farewell ${leavingMemberTag}. We're sad to see you leave *${groupName}*.\n\n📜 Group Description: ${groupDescription}\n👥 Total Members: ${groupTotalMembers}\n\nWe hope to see you again! 🌟`;
 
     await client.sendMessage(groupID, { text: farewellMessage, mentions: [leavingMemberID] });
   } catch (error) {
