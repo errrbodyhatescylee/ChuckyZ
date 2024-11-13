@@ -184,7 +184,7 @@ smd({
         edit: _0x2d7cf6
       }, "asta", _0x4e7c63);
     } catch (_0x28ce7e) {}
-    let _0x50f17a = " *👸 QUEEN NIKKA- ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features 👉 " + _0x4cf8ed + "_\n  \n*◦ BOT FEATURES*\n\n      Plugins 👉 " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+    let _0x50f17a = " *👸 QUEEN_KYLIE - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features 🧸 " + _0x4cf8ed + "_\n  \n*◦ BOT FEATURES*\n\n      Plugins 👉 " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
     await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
       requestPaymentMessage: {
         currencyCodeIso4217: "PK",
@@ -220,7 +220,7 @@ smd({
   }
   const _0x5845d4 = ["Sigma", "Generous", "Grumpy", "Overconfident", "Obedient", "Good", "Simple", "Kind", "Patient", "Pervert", "Cool", "Helpful", "Brilliant", "Sexy", "Hot", "Gorgeous", "Cute", "Fabolous", "Funny"];
   const _0x2f5d93 = _0x5845d4[Math.floor(Math.random() * _0x5845d4.length)];
-  let _0x3b31ed = "Character of @" + _0x32c078.split("@")[0] + "  is *" + _0x2f5d93 + "* 🔥⚡";
+  let _0x3b31ed = "Character of @" + _0x32c078.split("@")[0] + "  is *" + _0x2f5d93 + "* ❤️🧸";
   _0x2a677e.send(_0x3b31ed, {
     mentions: [_0x32c078]
   }, "asta", _0x2a677e);
@@ -308,7 +308,7 @@ smd({
     let _0x3db049 = speed() - _0xce26d;
     neww = performance.now();
     oldd = performance.now();
-    respon = ("\n👉Response Speed " + _0x3db049.toFixed(4) + " _Second_ \n " + (oldd - neww) + " _miliseconds_\n\nRuntime : " + runtime(process.uptime()) + "\n\n👉 Info Server\nRAM: " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n👉_NodeJS Memory Usaage_\n" + Object.keys(_0x37ca41).map((_0x19d575, _0x3942d9, _0x3fa08c) => _0x19d575.padEnd(Math.max(..._0x3fa08c.map(_0x6548cb => _0x6548cb.length)), " ") + ": " + formatp(_0x37ca41[_0x19d575])).join("\n") + "\n\n" + (_0x4a72de[0] ? "👉_Total CPU Usage_\n" + _0x4a72de[0].model.trim() + " (" + _0x410388.speed + " MHZ)\n" + Object.keys(_0x410388.times).map(_0xffc60c => "- *" + (_0xffc60c + "*").padEnd(6) + ": " + (_0x410388.times[_0xffc60c] * 100 / _0x410388.total).toFixed(2) + "%").join("\n") + " " : "") + "\n\n ").trim();
+    respon = ("\n🧸Response Speed " + _0x3db049.toFixed(4) + " _Second_ \n " + (oldd - neww) + " _miliseconds_\n\nRuntime : " + runtime(process.uptime()) + "\n\n❤️ Info Server\nRAM: " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n❄️_NodeJS Memory Usaage_\n" + Object.keys(_0x37ca41).map((_0x19d575, _0x3942d9, _0x3fa08c) => _0x19d575.padEnd(Math.max(..._0x3fa08c.map(_0x6548cb => _0x6548cb.length)), " ") + ": " + formatp(_0x37ca41[_0x19d575])).join("\n") + "\n\n" + (_0x4a72de[0] ? "🧸_Total CPU Usage_\n" + _0x4a72de[0].model.trim() + " (" + _0x410388.speed + " MHZ)\n" + Object.keys(_0x410388.times).map(_0xffc60c => "- *" + (_0xffc60c + "*").padEnd(6) + ": " + (_0x410388.times[_0xffc60c] * 100 / _0x410388.total).toFixed(2) + "%").join("\n") + " " : "") + "\n\n ").trim();
     _0xdfc3ca.reply(respon);
   } catch (_0x13d03e) {
     await _0xdfc3ca.error(_0x13d03e + "\n\ncommand : ping2", _0x13d03e, false);
