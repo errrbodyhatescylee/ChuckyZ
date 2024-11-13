@@ -182,8 +182,8 @@ smd({
   }
 });
 let txt = {
-  "2": "*Hey i already inform you!*\n",
-  "3": "*Stop spamming!*"
+  "2": "*don't be an idiot😑*\n",
+  "3": "*Stop spammin' you fatherless chicken*"
 };
 function getTimeDifference(_0x47a53) {
   const _0x2e748e = new Date(_0x47a53);
