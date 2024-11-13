@@ -93,7 +93,7 @@ smd(
             id: "bot_" + _0x1a5020.user,
           },
           {
-            chatbot: "false",
+            chatbot: "true",
           }
         );
         await groupdb.updateOne(
@@ -101,7 +101,7 @@ smd(
             id: _0x1a5020.chat,
           },
           {
-            chatbot: "false",
+            chatbot: "true",
           }
         );
         return await _0x1a5020.send(
