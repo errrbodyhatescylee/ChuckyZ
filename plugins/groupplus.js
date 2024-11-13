@@ -102,7 +102,7 @@ let warn = {
         _0x2634c7[_0x5add8c] = [];
       }
       var _0x279bae = {
-        'chat': 'PRIVATE',
+        'chat': 'PUBLIC',
         'reason': "Inapropriate Behaviour",
         'date': new Date(),
         'warnedby': tlang().title,
