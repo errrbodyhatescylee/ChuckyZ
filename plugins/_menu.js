@@ -68,7 +68,7 @@ astro_patch.smd({
     });
 
     // Set the desired menu design
-    const header = "┏━━👸 *" + Config.botname + "* 👸━━✿︎\n";
+    const header = "┏━━👸❤️ *" + Config.botname + "* ❤️👸━━✿︎\n";
     const lineSeparator = "┃ ";
     const commandPrefix = "┏━━❤️";
     const commandSuffix = "❤️━━✿︎";
